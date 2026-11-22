@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand">#6D4C41</color>
+    <color name="brand_dark">#4E342E</color>
+    <color name="paper">#FDFBF7</color>
+    <color name="paper_dark">#17140F</color>
+    <color name="card">#FFFFFF</color>
+    <color name="card_dark">#211D18</color>
+    <color name="text_primary">#1F1B16</color>
+    <color name="text_secondary">#6F655D</color>
+    <color name="divider">#E9E3DA</color>
+
+    <color name="cat_work">#3B6FD4</color>
+    <color name="cat_life">#2E9E5B</color>
+    <color name="cat_study">#D99A0B</color>
+    <color name="cat_idea">#A05FD3</color>
+</resources>

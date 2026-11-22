@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">记事本</string>
+
+    <!-- 列表页 -->
+    <string name="notes_title">记事本</string>
+    <string name="search_hint">搜索标题或内容</string>
+    <string name="category_all">全部</string>
+    <string name="empty_notes">还没有笔记，点右下角按钮新建一条</string>
+    <string name="menu_sort">排序</string>
+    <string name="menu_sort_updated">按修改时间</string>
+    <string name="menu_sort_created">按创建时间</string>
+    <string name="menu_sort_title">按标题</string>
+    <string name="menu_category">分类管理</string>
+    <string name="menu_settings">设置</string>
+    <string name="menu_export_all">导出全部笔记</string>
+    <string name="menu_pin">置顶</string>
+    <string name="menu_unpin">取消置顶</string>
+    <string name="menu_share">分享</string>
+    <string name="menu_delete">删除</string>
+    <string name="pinned_tag">置顶</string>
+    <string name="note_count">%1$d 条笔记</string>
+
+    <!-- 编辑页 -->
+    <string name="editor_title">编辑笔记</string>
+    <string name="editor_new">新建笔记</string>
+    <string name="title_hint">标题</string>
+    <string name="content_hint">开始记录…</string>
+    <string name="action_save">保存</string>
+    <string name="action_delete">删除</string>
+    <string name="action_share">分享</string>
+    <string name="saved">已保存</string>
+    <string name="deleted">已删除</string>
+    <string name="unsaved_discard">内容尚未保存，确定放弃？</string>
+    <string name="discard">放弃</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="delete_confirm">删除这条笔记？</string>
+    <string name="word_count">%1$d 字 / 修改于 %2$s</string>
+    <string name="untitled">无标题</string>
+    <string name="category_label">分类</string>
+    <string name="category_none">未分类</string>
+
+    <!-- 分类页 -->
+    <string name="category_title">分类管理</string>
+    <string name="category_new_hint">新分类名称</string>
+    <string name="category_add">添加</string>
+    <string name="category_exists">该分类已存在</string>
+    <string name="category_name_empty">分类名称不能为空</string>
+    <string name="category_delete_confirm">删除分类“%1$s”？该分类下的笔记会变为未分类。</string>
+    <string name="category_note_count">%1$d 条</string>
+    <string name="category_empty">还没有分类</string>
+
+    <!-- 设置页 -->
+    <string name="settings_title">设置</string>
+    <string name="settings_appearance">外观</string>
+    <string name="settings_dark">深色模式</string>
+    <string name="settings_dark_desc">开启后用深色配色显示全部页面</string>
+    <string name="settings_font">正文字号</string>
+    <string name="settings_font_value">%1$d sp</string>
+    <string name="settings_font_preview">正文预览：记事本支持按标题和内容检索笔记。</string>
+    <string name="settings_default_sort">默认排序</string>
+    <string name="settings_about">关于</string>
+    <string name="settings_version">版本 %1$s</string>
+    <string name="settings_version_desc">数据保存在本地 SQLite 数据库，卸载应用会一并清除。</string>
+
+    <!-- 导出 -->
+    <string name="export_file_name">notes.txt</string>
+    <string name="export_done">已导出到：%1$s</string>
+    <string name="export_empty">没有可导出的笔记</string>
+    <string name="export_failed">导出失败：%1$s</string>
+    <string name="share_chooser">分享笔记</string>
+    <string name="note_actions">笔记操作</string>
+    <string name="content_empty">请输入标题或内容</string>
+    <string name="category_pick">选择分类</string>
+    <string name="category_add_title">新建分类</string>
+    <string name="search_clear">清除</string>
+    <string name="sort_current">当前排序：%1$s</string>
+    <string name="category_label_value">分类：%1$s</string>
+</resources>
