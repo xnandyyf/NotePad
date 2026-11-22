@@ -131,7 +131,7 @@ adb install -r app/build/outputs/apk/debug/app-debug.apk
 
 1. 腾讯云 `mirrors.cloud.tencent.com/nexus/repository/maven-public/`（同时代理 Maven Central 与 Google Maven）
 2. 阿里云 `maven.aliyun.com/repository/google`、`maven.aliyun.com/repository/public`
-3. 官方 `google()`、`mavenCentral()`，镜像缺包时兜底
+3. 官方 `google()`、`mavenCentral()`，镜像缺包时使用
 
 Gradle 发行包地址同样指向 `mirrors.cloud.tencent.com/gradle/`，因此首次同步和首次构建都不需要代理。若某个依赖在镜像里报 404，注释掉前两行的镜像、保留官方仓库再同步一次即可。
 
